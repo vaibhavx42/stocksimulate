@@ -49,7 +49,9 @@ Welcome to our MLH Hackathon submission, StockSimulate Your Virtual Trading Play
 - You can signup [here](https://stocksimulate.vercel.app/).
 - Check the video below to know how to use the application.
 <div style="center>
+  
  [![Video Title](https://img.youtube.com/vi/x8CtG-bVF9A/0.jpg)](https://www.youtube.com/watch?v=x8CtG-bVF9A)
+ 
 </div>
 <!--
 - [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=10&duration=7000&pause=10&color=F72DAF&width=435&lines=%E2%9A%A0%EF%B8%8F+Template+2+is+facing+some+difficulties+)](https://git.io/typing-svg)
