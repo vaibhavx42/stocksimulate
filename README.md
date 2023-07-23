@@ -43,12 +43,12 @@ Welcome to our MLH Hackathon submission, StockSimulate Your Virtual Trading Play
 - **User-friendly Interface:** StockSimulate offers a user-friendly web interface for risk-free stock trading, making it accessible and enjoyable for all users.
 - **Real-time Stock Prices:** Stay updated with real-time stock prices to make informed trading decisions and experience the dynamics of the stock market in action.
 - **Profit Tracking and Buy-Sell Graphs:** Track your profits and visualize your buy-sell transactions with interactive graphs, providing valuable insights for improving your trading strategies.
-- 
+
 ## Usage
 - To begin using StockSimulate, simply sign up or log in to your account on the web application. Once logged in, you'll have access to a wide range of available options for risk-free stock trading. Select from various stocks and explore the real-time stock prices, profit tracking, and buy-sell graphs to simulate real trading scenarios.
 - You can signup [here](https://stocksimulate.vercel.app/).
 - Check the video below to know how to use the application.
-- 
+
  [![Video Title](https://img.youtube.com/vi/x8CtG-bVF9A/0.jpg)](https://www.youtube.com/watch?v=x8CtG-bVF9A)
  
 
