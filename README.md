@@ -28,9 +28,7 @@ Welcome to our MLH Hackathon submission, StockSimulate Your Virtual Trading Play
 
 - [Description](#Description)
 - [Features](#features)
-- [Demo](#demo)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 - [ACKNOWLEDGMENTS](#ACKNOWLEDGMENTS)
 - [Miscellaneous](#Miscellaneous)
