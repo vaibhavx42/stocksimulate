@@ -74,7 +74,7 @@ Welcome to our MLH Hackathon submission, StockSimulate Your Virtual Trading Play
 Do consider looking at other paradigms of this documentation
 
   - [License used](/LICENSE.txt)
-  - [Code Of Conduct](/CodeofConduct.md)
+  - [Code Of Conduct](/Codeofconduct.md)
                        
 <p align="right">(<a href="./Description">back to top</a>)</p>  
                       
