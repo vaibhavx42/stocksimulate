@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/vaibhavx42/stocksimulate/assets/110530263/6dcb5a9c-3ee5-4af5-b148-91f0016156b4" width="400" />
+  <img src="https://github.com/vaibhavx42/stocksimulate/assets/110530263/76c9a8b8-1b49-481c-b62c-2548c7c52b42" width="400" />
 </p>
 <div align="center">
   <a href="https://stocksimulate.vercel.app//" target="_blank">
