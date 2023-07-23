@@ -46,9 +46,10 @@ Welcome to our MLH Hackathon submission, StockSimulate Your Virtual Trading Play
 - 
 ## Usage
 - To begin using StockSimulate, simply sign up or log in to your account on the web application. Once logged in, you'll have access to a wide range of available options for risk-free stock trading. Select from various stocks and explore the real-time stock prices, profit tracking, and buy-sell graphs to simulate real trading scenarios.
-![image](https://github.com/vaibhavx42/MLH_HACKATHON/assets/110530263/99b8ba5e-681a-42d7-bb20-082c2fb64f5c)
-
 - You can signup [here](https://stocksimulate.vercel.app/).
+- Check the videpo below to know how to use the application.
+
+ [![Video Title](https://img.youtube.com/vi/x8CtG-bVF9A/0.jpg)](https://www.youtube.com/watch?v=x8CtG-bVF9A)
 
 <!--
 - [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=10&duration=7000&pause=10&color=F72DAF&width=435&lines=%E2%9A%A0%EF%B8%8F+Template+2+is+facing+some+difficulties+)](https://git.io/typing-svg)
