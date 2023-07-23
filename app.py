@@ -27,9 +27,7 @@ Session(app)
 db = SQL("sqlite:///finance.db")
 
 API_KEY = "pk_c783efd153a94128b3fae061dddaa975"
-# Make sure API key is set
-# if not os.environ.get("API_KEY"):
-#     raise RuntimeError("API_KEY not set")
+
 
 
 @app.after_request
@@ -107,26 +105,26 @@ def history():
     """Show history of transactions"""
     buy = db.execute("SELECT * FROM transactions WHERE user_id = ? AND type='BUY'", session["user_id"])
     sell = db.execute("SELECT * FROM transactions WHERE user_id = ? AND type='SELL'", session["user_id"])
-    buy_graph=[]
-    sell_graph=[]
-    for i in buy:
-        buy_graph.append(i["price"])
-    # print(type(sell_graph[0])) 
-    for i in sell:
-        sell_graph.append(i["price"])
 
+    buy_graph={"time":[],"price":[]}
+    sell_graph={"time":[],"price":[]}
+    for i in buy:
+        buy_graph["price"].append(i["price"])
+        buy_graph["time"].append(i["timimg"])
+    for i in sell:
+        sell_graph["price"].append(i["price"])
+        sell_graph["time"].append(i["timimg"])
     profit=[]
-    
-    for i in range(len(buy_graph)):
-        profit.append(sell_graph[i]-buy_graph[i])
-        
-    
-    print(profit)
+    time=[]
+    for i in range(len(buy_graph["price"])):
+        profit.append(sell_graph["price"][i]-buy_graph["price"][i])
+        time.append(sell_graph["time"][i][11:16])
     for i in profit:
-         
             fig, ax = plt.subplots()
-            ax.barh(irtime, irgraph, align='center')
-            plt.savefig('hackathon/static/src/images/ir/ir_obstacle.jpg')
+            ax.barh(time, profit, align='center')
+            plt.xlabel("Profit")
+            plt.ylabel("Time")
+            plt.savefig('./static/img/profit.jpg')
     return render_template("history.html", buy=buy, sell=sell, usd=usd)
 
 
