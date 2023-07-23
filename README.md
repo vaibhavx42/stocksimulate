@@ -6,7 +6,8 @@
 
 
 <p align="center">
-  <img src="https://github.com/vaibhavx42/MLH_HACKATHON/assets/110530263/fed024f1-a9de-44ca-b91b-842f9f3233ef" width="400" />
+  <img src="![Black and White Bold Trade and Investments Youtube Banner](https://github.com/vaibhavx42/stocksimulate/assets/110530263/6dcb5a9c-3ee5-4af5-b148-91f0016156b4)
+" width="400" />
 </p>
 <div align="center">
   <a href="https://stocksimulate.vercel.app//" target="_blank">
